@@ -10,12 +10,18 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@iconify/vue": "^4.1.1",
     "@nuxt/devtools": "latest",
     "autoprefixer": "^10.4.16",
     "nuxt": "^3.8.1",
+    "nuxt-quasar-ui": "^2.0.6",
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.5",
     "vue": "^3.3.8",
     "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.16.8",
+    "quasar": "^2.14.0"
   }
 }
