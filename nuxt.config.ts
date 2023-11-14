@@ -30,6 +30,21 @@ export default defineNuxtConfig({
 
   modules: ['nuxt-quasar-ui', '@nuxtjs/google-fonts'],
 
+  quasar: {
+    config: {
+      dark: false,
+      brand: {
+        primary: '#7367F0',
+
+
+        positive: '#21BA45',
+        negative: '#C10015',
+        info: '#31CCEC',
+        warning: '#F2C037'
+      }
+    }
+  },
+
   postcss: {
     plugins: {
       tailwindcss: {},

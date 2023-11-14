@@ -12,7 +12,11 @@ export default {
   ],
 
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "brand-primary": "#7367F0",
+      },
+    },
   },
 
   plugins: [],
