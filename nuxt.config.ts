@@ -28,7 +28,7 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
 
-  modules: ['nuxt-quasar-ui'],
+  modules: ['nuxt-quasar-ui', '@nuxtjs/google-fonts'],
 
   postcss: {
     plugins: {
@@ -36,4 +36,10 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+
+  googleFonts: {
+    families: {
+      Poppins: [400, 700],
+    }
+  }
 })

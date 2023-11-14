@@ -21,6 +21,7 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
+    "@nuxtjs/google-fonts": "^3.0.2",
     "@quasar/extras": "^1.16.8",
     "quasar": "^2.14.0"
   }
